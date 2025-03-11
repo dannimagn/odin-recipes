@@ -10,38 +10,24 @@ html {
     padding: 0px;
 }
 
-body,
-head {
+body {
     background-color: rgb(94, 94, 94);
     font-size: 14px;
-    margin: 0px;
-    padding: 0px;
 }
 
 h1,
 h2,
-h3,
-.pagetop {
+h3 {
     text-align: center;
     width: auto;
     background-color: transparent;
 }
 
-.pagetop {
-    height: 5rem;
+h1 {
+    height: 1rem;
     padding: 5rem;
     font-weight: 700;
     color: rgb(167, 255, 154);
-    background-color: rgba(154, 154, 154, 0.367);
-    font-size: 36px;
-    
-}
-
-.subtext {
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 100;
-    padding: 0.5rem
 }
 
 h2 {
@@ -102,14 +88,30 @@ button {
     text-decoration: none;
     border: none;
     padding: 1rem;
-    margin: 0.3rem;
+    margin: 1rem;
     font-size: 16px;
     border: 1px solid black;
-    width: 300px;
 }
 
 a {
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     font-weight: 600;
+}
+
+.container {
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+  }
+  
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
 }
